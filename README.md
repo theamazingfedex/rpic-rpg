@@ -21,6 +21,9 @@ I want to create a fully dynamic RPG AI and Event scripting library. I chose pyt
 * NPCs will be able to learn from the player and discuss amongst themselves. When a player says something to an NPC, the positivity of the text will be analyzed and will influence the NPC's demeanor towards the player. NPC's will have a dynamic list of locations that they visit, and when two NPCs of the same faction meet up, there will be a chance of them discussing what the player previously told them.
 * NPCs list of available discussion topics will vary based on a variety of factors such as: location, age, time of day, time of year (and others?)
 
+#### Procedural quest generation
+* Provided with a series of quest components, such as starting conditions, event conditions, rewards and completion conditions, there will be generated a number of quests identified as "dynamic quests" and made available through NPCs based on individual relations, faction relations, current inventory, current equipment, world location, time of day, past quests, etc.
+
 ### I need help though!
 I am not a game developer. I do have 7 years of rather diverse programming experience under my belt, plus I've been playing RPGs since I was a wee lad when my dad brought home an NES and the first Legend of Zelda. I've spent countless hours in Ultima IV and Morrowind enjoying the content and dreaming of ways it could be even better. I've had quite a few ideas for this, and I am trying to accumulate them here. I need **YOUR** help to discuss what should be added or removed, how things should interact, implementation details, etc. No idea is too small to share, so if you get one, *please* create an issue on this repository and we can discuss it.
 

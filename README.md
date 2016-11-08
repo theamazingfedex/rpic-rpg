@@ -1,17 +1,25 @@
 # Rpic Rpg
-#### Mission Statement:
+![Project-Status: active](https://img.shields.io/badge/project--status-active-green.svg)
+<br>
+![Project-State: discussion](https://img.shields.io/badge/project--state-discussion-yellow.svg)
+<br>
+![Code-Complete: none](https://img.shields.io/badge/code--complete-none-red.svg)
+
+### Mission Statement:
 I want to create a fully dynamic RPG AI and Event scripting library. I chose python to do this since it has broad support and diverse package availability, however a fair enough argument for another technology will be entertained. My goal is to be able to create an entire RPG world filled with dynamic everything, including Locations, Buildings, Items, NPCs, Factions, Knowledge Systems, Quest Systems as well as supporting raw-text input from the user and more. Ask anyone about anything you can think of. Even ask key NPCs about endgame events before they happen (with consequences).
+
 
 # Core Ideas
 
 #### Raw-Text Input
-User interactions will be raw-text based, so the user will have access to their keyboard to talk to the game. The system will take user input and fuzzy-match against a collection of possible inputs and ask the user which one they intended, with the option to add something new.
+* User interactions will be raw-text based, so the user will have access to their keyboard to talk to the game. The system will take user input and fuzzy-match against a collection of possible inputs and ask the user which one they intended, with the option to add something new.
 
 #### Text positivity
-Using the python `textblob` library, we are able to calculate the positivity of a phrase based on the words used. This positivity value can influence how the world reacts to players choices.
+* Using the python `textblob` library, we are able to calculate the positivity of a phrase based on the words used. This positivity value can influence how the world reacts to players choices.
 
 #### NPC AI
-NPCs will be able to learn from the player and discuss amongst themselves. When a player says something to an NPC, the positivity of the text will be analyzed and will influence the NPC's demeanor towards the player. NPC's will have a dynamic list of locations that they visit, and when two NPCs of the same faction meet up, there will be a chance of them discussing what the player previously told them.
+* NPCs will be able to learn from the player and discuss amongst themselves. When a player says something to an NPC, the positivity of the text will be analyzed and will influence the NPC's demeanor towards the player. NPC's will have a dynamic list of locations that they visit, and when two NPCs of the same faction meet up, there will be a chance of them discussing what the player previously told them.
+* NPCs list of available discussion topics will vary based on a variety of factors such as: location, age, time of day, time of year (and others?)
 
 ### I need help though!
 I am not a game developer. I do have 7 years of rather diverse programming experience under my belt, plus I've been playing RPGs since I was a wee lad when my dad brought home an NES and the first Legend of Zelda. I've spent countless hours in Ultima IV and Morrowind enjoying the content and dreaming of ways it could be even better. I've had quite a few ideas for this, and I am trying to accumulate them here. I need **YOUR** help to discuss what should be added or removed, how things should interact, implementation details, etc. No idea is too small to share, so if you get one, *please* create an issue on this repository and we can discuss it.
